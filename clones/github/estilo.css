@@ -27,9 +27,8 @@
     align-items: center;
     width: max-content;
     display: flex;
-    gap: 2rem;
-    border: 0.15rem solid var(--cinzaClaro);
-    border-radius: .5rem;
+    border: .2rem solid var(--cinzaClaro);
+    border-radius: .75rem;
 }
 
 .cabecalhoPesquisa {
@@ -44,13 +43,13 @@
 }
 
 .barraPesquisa {
-    margin-right: .4rem;
+    margin-right: .1em;
     height: 2rem;
     width: 2.2rem;
 }
 
 .headerEsquerda {
-    margin-left: 1rem;
+    margin-left: 2rem;
     align-items: center;
     display: flex;
     gap: 1rem;
