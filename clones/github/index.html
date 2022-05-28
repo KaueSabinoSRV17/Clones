@@ -14,7 +14,7 @@
     <title>GitHub</title>
 </head>
 <body>
-    <header class="cabecalho">
+    <header class="cabecalho">  
         <div class="headerEsquerda">
             <figure class="logo">
                 <img
@@ -22,10 +22,19 @@
                     alt="logo"
                     class="logoGihub">
             </figure>
-            <input
-                type="text"
-                placeholder="Search or jump to..."
-                class="cabecalhoPesquisa">
+            <form class="pesquisa">
+                <label 
+                    for="input" 
+                    class="campoPesquisa">
+                    <input
+                        type="text"
+                        placeholder="Search or jump to..."
+                        class="cabecalhoPesquisa">
+                    <img 
+                        src="./assets/img/svg/barraPesquisa.svg" 
+                        alt="Indicação para digitar / e ter mais funções">
+                </label>
+            </form>
             <nav class="navCabecalho">
                 <ul class="listaLinks">
                     <li class="liLinks">

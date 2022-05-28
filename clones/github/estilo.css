@@ -3,6 +3,7 @@
     padding: 0;
     list-style: none;
     text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 :root {
@@ -16,11 +17,11 @@
     align-items: center;
     justify-content: space-between;
     background-color: var(--cinza);
-    height: 6.1rem;
 }
 
 .cabecalhoPesquisa {
-    height: 2.25rem;
+    height: 2.8rem;
+    width: 100%;
     padding-left: 1rem;
     border: 0.15rem solid var(--cinzaClaro);
     background-color: var(--cinza);
@@ -28,7 +29,7 @@
 
 .headerEsquerda {
     display: flex;
-    gap: 1rem;
+    gap: 1.5rem;
 }
 
 .navCabecalho {
@@ -36,11 +37,15 @@
 }
 
 .listaLinks {
+    padding-block: 1.6rem;
+    font-weight: 630;
+    font-size: 1.4rem;
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 5rem;
 }
 
 .liLinks a {
     color: white;
+    width: max-content;
 }
