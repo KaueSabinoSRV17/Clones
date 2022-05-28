@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    font-size: 62.5%;
+    --cinza: #24292F;
+    --cinzaClaro: #3D454C;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--cinza);
+    height: 6.1rem;
+}
+
+.cabecalhoPesquisa {
+    height: 2.25rem;
+    padding-left: 1rem;
+    border: 0.15rem solid var(--cinzaClaro);
+    background-color: var(--cinza);
+}
+
+.headerEsquerda {
+    display: flex;
+    gap: 1rem;
+}
+
+.navCabecalho {
+    display: flex;
+}
+
+.listaLinks {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.liLinks a {
+    color: white;
+}
