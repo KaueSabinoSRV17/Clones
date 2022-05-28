@@ -10,26 +10,50 @@
     font-size: 62.5%;
     --cinza: #24292F;
     --cinzaClaro: #3D454C;
+    --cinzaClaroPlaceHolder: #C8C9CB;
 }
 
 .cabecalho {
+    line-height: 1.5;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: var(--cinza);
 }
 
-.cabecalhoPesquisa {
+.campoPesquisa {
     height: 2.8rem;
-    width: 100%;
-    padding-left: 1rem;
+    width: 27.2rem;
+    align-items: center;
+    width: max-content;
+    display: flex;
+    gap: 2rem;
     border: 0.15rem solid var(--cinzaClaro);
+    border-radius: .5rem;
+}
+
+.cabecalhoPesquisa {
+    border: 0;
+    width: 24.6rem;
+    padding-inline: 1.2rem;
     background-color: var(--cinza);
 }
 
+.cabecalhoPesquisa::placeholder {
+    color: var(--cinzaClaroPlaceHolder);
+}
+
+.barraPesquisa {
+    margin-right: .4rem;
+    height: 2rem;
+    width: 2.2rem;
+}
+
 .headerEsquerda {
+    margin-left: 1rem;
+    align-items: center;
     display: flex;
-    gap: 1.5rem;
+    gap: 1rem;
 }
 
 .navCabecalho {
@@ -37,12 +61,12 @@
 }
 
 .listaLinks {
-    padding-block: 1.6rem;
+    padding-block: 2rem;
     font-weight: 630;
     font-size: 1.4rem;
     display: flex;
     align-items: center;
-    gap: 5rem;
+    gap: 1.5rem;
 }
 
 .liLinks a {
