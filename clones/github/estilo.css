@@ -72,3 +72,18 @@
     color: white;
     width: max-content;
 }
+
+.botoesDireita {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-right: 4rem;
+}
+
+.avatar {
+    background-color: var(--cinza);
+    padding: 0;
+    border-radius: 0;
+    aspect-ratio: 20 / 20;
+    white-space: nowrap;
+}
